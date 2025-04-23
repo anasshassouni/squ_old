@@ -1,0 +1,374 @@
+body {margin:0px; padding:0px; voice-family:"\"}\""; voice-family:inherit; font-family:calibri; font-size:14px; color:#000; background: url(https://web.archive.org/web/20240308030416cs_/https://www.sqca.edu.om/images/main_bg.jpg) left -194px repeat-x #ffffff; font-weight:normal; line-height:18px;}
+body.bg2{ background-position:left 0;}
+/* Comman Classes */
+a, img, span {border:0; margin:0; padding:0;}
+a { color: #0098f0; text-decoration: none; }
+a:hover { color: #001e45; text-decoration: none; }
+
+img {line-height:0px;}
+* {list-style:none; margin:0px; padding:0px;}
+li {display:list-item; border:0; margin:0; padding:0;}
+.clear {clear:both;}
+h1 { margin:0px; padding:0 0 10px 0; font-family: 'RobotoCnBold'; color:#0098f0; font-size:48px; font-weight:normal; line-height: normal;}/**/
+h2 { margin:0px; padding:0 0 12px 0; font-family:calibri; color:#007ade; font-size:40px; font-weight:normal; line-height: normal;}
+h3 { margin:0px; padding:0 0 12px 0; font-family:calibri; color:#005ca7; font-size:34px; font-weight:normal; line-height: normal;}
+h4 { margin:0 0 10px 0; padding:0 0 5px 0; font-family:calibri; color:#000000; font-size:30px; font-weight:bold; line-height: normal;}/**/
+h5 { margin:0px; padding:0 0 12px 0; font-family: 'RobotoCnBold'; color:#0098f0; font-size:24px; font-weight:normal; line-height: normal;}/**/
+h5.title{ border-top:1px solid #cfcfcf; border-bottom:1px solid #cfcfcf; margin:5px 10px 10px 10px; padding:10px; font-size:30px;}
+h6 { margin:0px; padding:0 0 12px 0; font-family:calibri; color:#000000; font-size:22px; font-weight:normal; line-height: normal;}
+
+@font-face {
+    font-family: 'RobotoCnBold';
+    src: url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/roboto-boldcondensed-webfont.eot');
+    src: url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/roboto-boldcondensed-webfont.eot') format('embedded-opentype'),
+         url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/roboto-boldcondensed-webfont.woff') format('woff'),
+         url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/roboto-boldcondensed-webfont.ttf') format('truetype'),
+         url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/roboto-boldcondensed-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CalibriRegular';
+    src: url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/calibri-webfont.eot');
+    src: url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/calibri-webfont.eot') format('embedded-opentype'),
+         url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/calibri-webfont.woff') format('woff'),
+         url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/calibri-webfont.ttf') format('truetype'),
+         url('https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/css/calibri-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Starts Here */
+#homepage { width: 100%; float: left; }
+.main_inner { margin: 0px auto; padding: 0px; width: 1017px; }
+
+/* Header */
+#header { width: 1017px; float: left; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/header_bg.jpg) top left no-repeat; padding: 0 0 20px 0; }
+.top_section { width: 1017px; height: 183px; float: left; }
+.logo { width:582px; float: left; margin:13px 0 0 30px;}
+.logo img{ margin:20px 0 0 0px;}
+.search_box { width: 276px; float: right; font-size: 12px; font-family: calibri; color: #FFFFFF; margin:28px 0 0 0; }
+.search_bar { width: 266px; height: 39px; float: left; }
+.searc_inp { width: 180px; height: 20px; float: left; background: #FFFFFF; border: 1px solid #5f728a; padding: 0 5px 0 5px; }
+
+.soc_tp{ float:right; width:65px;}
+.soc_tp ul{ list-style:none; margin:0; padding:0;}
+.soc_tp ul li{ display:inline; float:left;}
+.soc_tp ul li a{float:left; width:22px; height:22px; text-indent:-999em;}
+.soc_tp ul li a.fb{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/fb.png) left top no-repeat; margin-right:5px;}
+.soc_tp ul li a.tw{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/tw.png) left top no-repeat;}
+.soc_tp ul li a:hover{ background-position:left -22px;}
+
+.goog-te-combo{background:#fff; border:1px solid #5F728A; height:20px; padding:0px;}
+
+.searc_btn { width: 67px; height: 22px; float: left; cursor: pointer; border: 0px; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/search_btn.jpg) top left no-repeat; text-align: center; font-size: 13px; font-weight: bold; color: #FFFFFF; padding:0 0 3px 0; }
+.searc_btn:hover { background-position: 0px -39px; }
+
+.menu { width: 1017px; height: 65px; float: left; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/menu_bg.jpg) top left repeat-x; }
+.menu ul { margin: 0px; padding: 0 0 0 0; list-style: none; }
+.menu ul li { background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/menu_sep.jpg) center left no-repeat; padding: 0px 0 0px 1px; display: inline; float: left; }
+.menu ul li:first-child { background: none; padding: 0px; }
+.menu ul li a { color: #00142f; font-size: 24px; padding: 23px 30px; text-shadow: 0px 1px #fff; font-family: calibri; text-transform: uppercase; float: left; }
+.menu ul li a:hover { background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/menu_hover.jpg) top left repeat-x; color: #ffffff; text-shadow: 0px 1px #000; }
+.menu ul li.active a { background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/menu_hover.jpg) top left repeat-x; color: #ffffff; text-shadow: 0px 1px #000; }
+.banner { width: 1017px; height: 394px; float: left; }
+
+/* Container */
+#container { width: 1017px; float: left; padding: 0 0 60px 0; }
+#container_inner { width: 1017px; float: left; padding: 0 0 15px 0; }
+.secondary { width: 266px; float: left; }
+.news_event { width: 240px; float: left; background: #001e44; padding: 13px; }
+.secondary .news_event h2 { font-size: 36px; line-height: 44px; color: #FFFFFF; text-align: center; }
+.news_cont { width: 100%; float: left; padding: 15px 0 15px 0; color: #FFFFFF; font-size: 14px; }
+.news_cont a { color: #0098f0; }
+.news_cont a:hover { color: #FFFFFF; }
+
+.sign_up { width: 266px; height: 125px; float: left; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/sign_bg.jpg) top left repeat-x; margin: 3px 0 0 0; color: #FFFFFF; font-size: 24px; text-transform: uppercase; text-align: center; line-height: normal; padding: 24px 0 0 0; }
+.sign_up a { color: #FFFFFF; } 
+.sign_up a:hover { color: #000000; }
+.sign_font {  font-size: 48px; text-transform: uppercase; font-weight: bold; }
+
+.primary { width: 721px; float: right; }
+.primary_inner { width:710px; float:right; border:2px solid #acb1b1; background:#ffffff; padding:20px 15px}
+.head1 { color: #000000; font-size: 30px; line-height: 22px; font-family: calibri; font-weight: bold; }
+.head5 { color: #000000; font-size: 18px; line-height: 22px; font-family: calibri; font-weight: bold; }
+.head4 { color: #000000; line-height: 25px; font-family: calibri; text-align: left; border-bottom:2px solid #000000; /*width:600px;*/ padding-bottom:10px; padding-top:6px;}
+.head6 { color: #000000; line-height: 22px; font-family: calibri; border-top: 2px solid #000000; /*width:600px;*/ padding-bottom:10px; padding-top:10px;}
+
+.img_right{ border:3px solid #0b1b19; float:right; margin:0 0 10px 10px}
+
+.list_square ul{margin:0 0 0 13px; padding:0; list-style:none;}
+.list_square ul li{list-style:square; padding:2px 0 2px 0;  font-family:calibri; font-size:14px; color:#000000;}
+
+p{ font-family:calibri; color:#000000; font-size:14px;line-height:20px; padding:0 0 15px 0; text-align:justify;}
+
+.photo_gallery{ width:707px; float:left; border-top:1px solid #000000; padding:18px 0 0 0; margin:60px 0 0 0 }
+.photo_gallery ul{ margin:0; padding:0; list-style:none}
+.photo_gallery ul li{ float:left; display:inline; margin:0 0 0 0px; padding:0;}
+.photo_gallery ul li img:hover{ box-shadow:1px 1px 1px #7d8584;}
+.photo_gallery ul li:first-child{ margin-left:0;}
+
+
+.student_main { width: 766px; padding: 15px 0 15px 0; margin:0 auto;}
+.student_main a:hover { background: #126de5; }
+.stud_stu { width: 201px; height: 229px; float: left; background: #001e45; padding: 6px; margin: 0 10px 4px 0; text-align: center; }
+.stu_white { width: 201px; float: left; text-align: center; color: #FFFFFF; font-size: 26px; padding: 20px 0 0 0; }
+
+.stud_reg { width: 201px; height: 229px; float: left; background: #001e45; padding: 6px; margin: 0 10px; text-align: center; }
+.stud_tests { width: 201px; height: 229px; float: left; background: #001e45; padding: 6px; text-align: center; margin:40px 37px 0 0;}
+.test2{margin:30px 0 0 0;}
+
+/* Footer */
+#footer { width: 1017px; float: left; min-height: 186px; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/footer_bg.jpg) top left no-repeat #001737; }
+
+.footer_box{width: 121px; min-height:115px; float:left; border-left:1px solid #386196; margin:33px 0 0 0; padding:0 35px 0 35px;}
+.footer_box:first-child{ border:0;}
+.footer_box.last{border:0; padding:0;}
+.footer_box h5{ color:#fff; font-size:24px;font-family:calibri;}
+
+.footer_list ul{ list-style:none; margin:0; padding:0;}
+.footer_list ul li{ padding:2px 0; line-height:14px;}
+.footer_list ul li a{color:#ffffff; font-family:calibri;font-size:11px; font-weight:bold;}
+.footer_list ul li a:hover{color:#0098f0;}
+
+.register_btn{ width:111px; height:26px; padding: 6px 0 0 0; margin:0; float:left; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/register_btn.png) left top no-repeat;font-family:calibri;font-size:14px; font-weight:bold; color:#FFFFFF; text-align:center;}
+.register_btn:hover{ background-position:left -32px; color:#000;}
+.footer_box p{font-family:calibri;font-size:11px; font-weight:bold; color:#FFFFFF;}
+.footer_logo{ float:left;width:229px;height:86px; margin:7px 0 0 0}
+
+/*register form*/
+.register_form { width:256px; float:left; margin:5px 0 0 0}
+.register_middle{width:241px;float:left; padding:7px 9px 14px 5px; margin:0 3px 0 1px; background: #FFFFFF url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/register_box_bg.jpg) left top repeat-x;}
+.form_shadow{ width:260px;background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/register_box_shadow.jpg) left top repeat-y;}
+.register_form h6 {width:248px; height:31px; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/register_heading_bg.jpg) left top no-repeat; font-size:18px; font-weight:bold; color:#fbffff; margin:0; padding:7px 0 0 12px;}
+.register_middle .note{ width:250px;float:right; text-align:right; font-style:italic; color:#252331; font-size:13px;}
+.register_middle .form_row{ float:left; width:100%; margin:0 0 6px 0;}
+.register_middle label{ color:#463c3b; font-size:14px;}
+.register_middle .selection_box{ width:231px; font-size:12px; border:1px solid #d1d1d0; padding:2px; background:#FFFFFF}
+.register_middle .input_box{width:221px;font-size:12px; border:1px solid #d1d1d0; padding:3px 4px; background:#FFFFFF;}
+.register_middle .check_box{ float:right;}
+.register_middle a{ font-size:13px; color:#468fff;}
+.register_middle a:hover{color:#000000;}
+.register_middle .form_btn{ width:178px; height:25px; float:left; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/register_submit_btn.jpg) left top no-repeat; border:0; color:#FFFFFF; text-shadow:#bf6508 0 1px; font-size:14px; margin:5px 0 0 0; padding:0 0 0 18px; text-align:left;}
+.register_middle .form_btn:hover{background-position:0 -25px; text-shadow:#0575b7 0 1px;}
+.register_form_bottom{ width:260px; height:8px; float:left; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/register_bottom_bg.jpg) left top no-repeat;}
+
+/*Download brochure */
+.brochure_box{ width:300px; min-height:280px; float:left; margin:5px 0 0 15px; padding:3px; background:#000; text-align:center;}
+.brochure_box .brochure_white{ font-size:24px;font-family:calibri; font-weight:bold; padding:30px 0 0 0; display:block;}
+.brochure_box a{ color:#FFFFFF;}
+.brochure_box a:hover{ color:#0098f0}
+
+a.btnbgrpt {width:auto; margin:0px; padding:5px 15px; color:#fff; text-decoration:none; border:0px; outline:0px; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/btnbg.jpg) left top repeat-x; height:33px; line-height:33px; font-size:18px; text-transform:uppercase;}
+a.btnbgrpt:hover {background-position:0px -33px;}
+
+.btnbgrpt {width:auto; margin:0px; padding:5px 15px; color:#fff; text-decoration:none; border:0px; outline:0px; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/btnbg.jpg) left top repeat-x; height:33px; line-height:33px; font-size:18px; text-transform:uppercase; font-family: 'RobotoCnBold'; cursor:pointer;}
+.btnbgrpt:hover {background-position:0px -33px;}
+
+.f_left {float:left !important;}
+.f_right {float:right !important;}
+
+.testinfotop {width:100%; float:left; text-align:right; margin:0px 0 10px 0; padding:0px 0 10px 0; border-bottom:1px solid #dadada;}
+
+#QuestionBlock {background-color:#f1f1f1; width:97%; float:left; padding:10px;}
+#QuestionBlock .que_box {width:100%; float:left; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/qustionbg.jpg) left top repeat-y #e5e5e5; padding:7px 0px; border-bottom:1px solid #FFFFFF;}
+#QuestionBlock .que_box p {margin:0px; padding:0px; line-height:normal;}
+#QuestionBlock .que_box .left {width:64px; float:left; text-align:center; font-size:18px; color:#000000; font-weight:bold; line-height:normal;}
+#QuestionBlock .que_box .right {float:right; text-align:right; font-size:18px; padding:0 10px 0 10px; clear:right; position:relative; overflow:hidden}
+#QuestionBlock .qubox {width:670px; float:right; margin:0px; padding:10px 20px 0px 20px;}
+#QuestionBlock .qubox .inputbox {width:30px; float:right; margin:0px; padding:4px 0 0 8px; text-align:right;}
+#QuestionBlock .qubox .inputtxt {width:530px; float:right; margin:0px; padding:0px; font-size: 16px; text-align:right;}
+#QuestionBlock .btnouter {width:100%; float:left; margin:20px 0 0 0; padding:15px 0 0 0; border-top:1px solid #FFFFFF;}
+#QuestionBlock .btnbgrpt {margin:0 15px 0 0;}
+
+#QuestionBlock p {margin:15px 0 0 0; padding:15px 0 0 0; line-height:normal; font-weight:bold; border-top:1px solid #ccc; float:left; width:100%;}
+#QuestionBlock p.nobdr{ border:0; margin:0; padding:0; }
+#QuestionBlock .que_box .right p{ border:0; margin:0; padding:0; font-size: 18px; font-weight:normal;}
+.testresultbox {width:100%; float:left; padding:0 0 15px 0;}
+.testresultbox .testrow {width:100%; float:left; margin:0px; padding:0px; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/testresultbg.jpg) left top repeat-y #f1f1f1; border-bottom:1px solid #fff;}
+.testresultbox .testrow .left {float:left; width:147px; padding:7px 15px 7px 15px; font-weight:bold; font-size:14px; color:#000000;}
+.testresultbox .testrow .right {float:left; width:450px; padding:7px 15px; font-size:14px; color:#000000;}
+
+.primary_inner p { font-size: 16px; text-align: left; }
+.primary_inner h2, h3, h4, h5, h6 { text-align: left; }
+#QuestionBlock .que_box .right p span {display: inline-block; width: 532px;}
+#QuestionBlock .que_box .right {display: inline-block; width: 532px;}
+#QuestionBlock .qubox .inputbox textarea { float: right; }
+
+.resultbtn {width:auto; float:left; margin:10px 0 0 0; padding:0px;}
+.resultbtn a.btnbgrpt {padding:0px 15px;}
+
+
+.final_result tr.titlebox td {background-color:#e5e5e5; text-align:left; color:#000000; font-weight:bold; padding:5px 10px;}
+.final_result tr.detail td {background-color:#f1f1f1; text-align:left; color:#000000; font-weight:normal; padding:5px 10px;}
+a.clicklink {color:#005ca7; text-decoration:none;}
+a.clicklink:hover {color:#0098f0; text-decoration:none;}
+.msgred { color:#FF0000; }
+
+/* 7-2-2013 */
+.primary_inner img { max-width: 225px; float: right; margin: 0 0px 10px 10px; border: 1px solid #D1D1D1; padding:3px;}
+.cont_main { width: 100%; float: left; padding:5px 0 5px 0; border-bottom:1px solid #e5e5e5; font-weight:bold}
+.cont_main:hover{ background:#f8f8f8}
+.cont_main:last-child{border:0; padding-bottom:0}
+
+form .cont_main{ border:0;}
+form .cont_main:hover{ background:#fff;}
+
+.cont_main label { width: 200px; float: left; margin:0 25px 0 0; text-align:right; font-weight:normal; }
+.cont_inp { width: 180px; height: 22px; float: left; border: 1px solid #d7d7d7; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/inp_bg.jpg) top left repeat-x #FFFFFF; padding: 0 5px 0 5px; }
+.cont_textarea { width: 186px; height: 60px; float: left; border: 1px solid #dadada; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/inp_bg.jpg) top left repeat-x #FFFFFF; padding: 3px 2px; resize: none; font-family: Arial; font-size: 12px; }
+
+.con_table table {border-collapse:collapse; width:100%; background-color:#FFFFFF; border:1px solid #bbbbbb; margin:0;}
+.con_table th{background:#00142f; color:#fff; font-weight: bold; padding: 7px 11px 7px 5px; text-align:left;}
+.con_table th p{ color:#fff; padding:0; margin:0; text-align:left;}
+.con_table tr { color:#00142f; padding:5px; text-align:left; border-left:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb; background:#d3d5d4; margin:0;}
+.con_table td { color:#00142f; padding:5px; text-align:left; border-left:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb; margin:0;}
+
+.submitbtn { width: 71px; height: 32px; float: left; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/submit_btn.png) top left no-repeat; border: 0px; cursor: pointer;  color:#ffffff; font-size:14px; font-family:'calibri'; text-align:center; padding:0 0 2px 0; font-weight:bold;}
+.submitbtn:hover { background-position: 0px -32px; }
+
+.loginbtn { width:61px; height: 32px; float: left; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/login_btn.png) top left no-repeat; border:0; cursor: pointer; color:#ffffff; font-size:14px; font-family:'calibri'; text-align:center; padding:0 0 2px 0; font-weight:bold }
+.loginbtn:hover { background-position: 0px -32px; }
+
+.link { float: left; margin: 7px 0 0 10px; color: #000000; }
+.link:hover { color: #0098f0; }
+
+.acc_links { width: 100%; float: left; }
+.acc_links a { color: #001e45; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/bullets.png) left 5px no-repeat; padding: 0 0 0 10px; }
+.acc_links a:hover { color: #0098f0; }
+
+
+.acc_links a.view_pro{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/icon_profile.jpg) left top no-repeat; padding:0 0 0 25px; font-size:14px; font-weight:bold; line-height:25px;}
+.acc_links a.lang_pro{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/icon_lang_pro.jpg) left top no-repeat; padding:0 0 0 25px; font-size:14px; font-weight:bold;line-height:25px;}
+.acc_links a.st_test{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/icon_test.jpg) left top no-repeat; padding:0 0 0 25px; font-size:14px; font-weight:bold;line-height:25px;}
+.acc_links a.result{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/icon_result.jpg) left top no-repeat; padding:0 0 0 25px; font-size:14px; font-weight:bold;line-height:25px;}
+.acc_links a.ch_pass{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/icon_pass.jpg) left top no-repeat; padding:0 0 0 25px; font-size:14px; font-weight:bold;line-height:25px;}
+.acc_links a.logout{ background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/icon_logout.jpg) left top no-repeat; padding:0 0 0 25px; font-size:14px; font-weight:bold;line-height:25px;}
+
+.startex {float:right; border:3px double #c2c2c2; background:#f1f1f1; height:20px; width:40%; font-size:20px; padding:10px; text-align:center}
+.startex a{ background:none}
+
+
+
+
+
+.accou7 { width:384px; float: right; color: #FFFFFF; text-align: right; padding:15px 15px 0 0; font-weight: bold; }
+.accou7 a { color: #0098f0; font-weight: bold; }
+.accou7 a:hover { color: #FFFFFF; }
+
+.accou7 #username, .accou7 #password{background:#FFFFFF; border:1px solid #5F728A; float:left; height:20px; padding:0 5px; width:150px;}
+.accou7 #btnSubmit{background: url("https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/search_btn.jpg") no-repeat scroll left top transparent; border: 0 none; color: #FFFFFF; cursor: pointer; float: left; font-size: 13px; font-weight: bold; height: 22px; text-align: center; width:60px; padding:0 0 5px 0}
+.accou7 #btnSubmit:hover{ background-position:left -39px;}
+
+
+#frm1 .form_row { width: 100%; float: left; padding: 0 0 10px 0; }
+#frm1 .form_row label { width: 220px; float: left; }
+#frm1 .cont_main label{ text-align:left; width:200px; margin:0 20px 0 0;}
+#frm1 .cont_main label.other_label{ height:100px;}
+#frm1 .cont_main label.other_label2{ height:40px;}
+#frm1 .cont_main label.label80{ width:100px;}
+#frm1 .cont_main label.other_label3{ height:100px;}
+#frm1 .cont_main label.other_label4{ height:80px;}
+#frm1 #gender, #payment_method, #courses_offered{ background: #FFFFFF; border: 1px solid #D7D7D7; float: left; height: 22px; padding:1px; width:192px;}
+#frm1 #address{width:180px; height:75px; float: left; border: 1px solid #d7d7d7; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/inp_bg.jpg) top left repeat-x #FFFFFF; padding:5px 5px 0 5px; resize:none; font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+div#flightdetails, div#specialdirectary, div#documentsspecify, div#healthspecify, #previousex{width:488px; float:right;}
+#previousex{margin:0 -11px 0 140px}
+div#documentsspecify, div#specialdirectary, div#flightdetails{ position:relative; left:10px;}
+
+#frm1 .form_row .selection_box { width: 200px; height: 26px; float: left; border: 1px solid #D7D7D7; padding: 3px; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/inp_bg.jpg) top left repeat-x #FFFFFF; }
+#frm1 .form_row .input_box, #flight_details, input#special_requirements_details, input#other_degree, #receive_documents_details, #specific_health_details, input#previous_exposure_details{ width: 188px; height: 24px; float: left; border: 1px solid #d7d7d7; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/inp_bg.jpg) top left repeat-x #FFFFFF; padding: 0 5px 0 5px; }
+
+#frm1 .cont_main{ font-weight:normal}
+
+.dowmload7 { width: 100%; float: left; }
+.primary_inner .dowmload7 h6 { padding: 7px 0 1px 0; }
+.download_btn { width: 80px; height: 32px; float: left; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/download_btn.png) top left no-repeat; margin: 0 0 12px 0; }
+.download_btn:hover { background-position: 0px -32px; }
+
+.searc_page7 { font-size: 20px; padding: 5px 0 5px 0; float: left; }
+
+.read_page7 { width: 87px; height: 22px; float: right; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/read_more7.png) top left no-repeat; margin: 0 0 10px 0; color:#fff; font-family:'calibri'; font-weight:bold; font-size:14px; text-align:center; padding:4px 0 0 0;}
+.read_page7:hover { background-position: 0px -26px; color:#FFFFFF}
+
+.hr_bor { border-bottom: 1px solid #c6c6c6; }
+.hr_bor1 { border-top: 1px solid #c6c6c6; margin: 10px 0 13px 0; }
+.continue8 { width: auto; float: right; margin: 9px 0 0 0; }
+
+.view_more8 { width: 118px; height: 22px; float: right; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/view_more.png) top left no-repeat; margin: 0 0 10px 0; color:#fff; font-family:'calibri'; font-weight:bold; font-size:14px; text-align:center; padding:4px 0 0 0;}
+.view_more8:hover { background-position: 0px -26px; color:#001e45 }
+
+.pglink { padding: 1px 6px 1px 6px; margin: 5px 0 0 0; float: left; }
+.pglink:hover { padding: 1px 6px 1px 6px; background: #0098f0; color: #FFFFFF; }
+
+.pglink_act { padding: 1px 6px 1px 6px; margin: 5px 0 0 0; float: left; }
+.img_left8 { float: left !important; margin: 0 10px 10px 0 !important; background: #FFFFFF; border: 1px solid #d1d1d1; padding: 3px; }
+
+.back_btn8 { width: 50px; height: 26px; float: right; background: url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/back_btn8.png) top left no-repeat; margin: 0 0 10px 0; }
+.back_btn8:hover { background-position: 0px -26px; }
+
+/***************************/
+#defaultCountdown { font-family:Verdana, Geneva, sans-serif; font-size:24px; }
+
+
+.list_2{ float:left;}
+.list_2.w460{width:460px; margin-left:10px;}
+.list_2.w450{width:450px; margin-top:10px;}
+.list_2.w460.martp0, .list_2.w450.martp0{ margin:0}
+.list_2 ul {list-style:none; margin:0 0 0 10px; padding:0}
+.list_2 ul li {line-height:20px; padding:3px 0 3px 15px;background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/arrow1.jpg) left 10px no-repeat; color:#000000; font-family:calibri; font-size:14px;}
+.list_2 ul li a {color:#50545b; display:block; padding:0px 0 0px 0px; font-size:12px; font-weight:bold}
+.list_2 ul li a:hover {color:#193274;}
+
+
+.secondary b{ color:#FFFFFF; font-size:16px; font-family:Arial, Helvetica, sans-serif; background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/left_arrow1.png) left 4px no-repeat; padding:0px 0 5px 13px; margin:0 0 5px 0; border-bottom:1px solid #235799; width:94%; float:left; color:#d8e1ec}
+
+.secondary ul{margin:0 0 15px 0; padding:0; list-style:none; float:left;}
+.secondary ul li{line-height:20px; padding:3px 0 3px 13px;background:url(https://web.archive.org/web/20240308030416im_/https://www.sqca.edu.om/images/left_arrow2.png) left 11px no-repeat; color:#000000; font-family:calibri; font-size:14px;}
+.secondary ul a:hover{ color:#fff}
+
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+img.imgright{ border:1px solid #ccc; padding:4px; background:#fff; float:right; margin:0 0 10px 15px;}
+img.imgright.martp10{ margin-top:20px;}
+img.imgleft{ border:1px solid #ccc; padding:4px; background:#fff; float:left; margin:0 15px 10px 0;}
+#news_scroller{height:30px; background:#001E44; color:#FFF; text-align:center;font-weight:bold; width:100%; border:1px solid #666; border-radius:5px;}
+#news_scroller a{color:#FFF;}
+.req{color:#F00;}
+.arabic{text-align:right !important;}
+#Question p, span{text-align:right !important;}
+.student_main span { text-align:center !important;}
+
+/*
+     FILE ARCHIVED ON 03:04:16 Mar 08, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:48:00 Apr 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.629
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 12.758
+  LoadShardBlock: 99.982 (3)
+  PetaboxLoader3.datanode: 130.936 (4)
+  load_resource: 165.14
+  PetaboxLoader3.resolve: 84.191
+*/

@@ -1,0 +1,606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=zC7xTh84" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://sqca.edu.om/sign-up.php","20240728000827","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1722125307");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Registration</title>
+<meta name="keywords" content="Registration"/>
+<meta name="description" content="Registration"/>
+<link href="https://web.archive.org/web/20240728000827cs_/https://sqca.edu.om/css/global.css" rel="stylesheet" type="text/css"/>
+<script src="https://web.archive.org/web/20240728000827js_/https://sqca.edu.om/js/jquery-1.8.2.js"></script>
+<script src="https://web.archive.org/web/20240728000827js_/https://sqca.edu.om/js/validation.js"></script>
+<link rel="shortcut icon" href="https://web.archive.org/web/20240728000827im_/https://sqca.edu.om/images/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="https://web.archive.org/web/20240728000827im_/https://sqca.edu.om/images/favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="https://web.archive.org/web/20240728000827js_/https://sqca.edu.om/js/slides.min.jquery.js"></script>
+
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20240728000827cs_/https://sqca.edu.om/alcpanel/dhtmlgoodies_calendar/dhtmlgoodies_calendar.css?random=20051112" media="screen"/>
+<script type="text/javascript" src="https://web.archive.org/web/20240728000827js_/https://sqca.edu.om/alcpanel/dhtmlgoodies_calendar/dhtmlgoodies_calendar.js?random=20060118"></script>
+
+<script type="text/javascript" src="https://web.archive.org/web/20240728000827js_/https://sqca.edu.om/alcpanel/ckeditor/ckeditor.js"></script>
+<script src="https://web.archive.org/web/20240728000827js_/https://sqca.edu.om/alcpanel/ckeditor/sample.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    function triggerHtmlEvent(element, eventName)
+	{
+		var event;
+		if(document.createEvent) {
+			event = document.createEvent('HTMLEvents');
+			event.initEvent(eventName, true, true);
+			element.dispatchEvent(event);
+		} else {
+			event = document.createEventObject();
+			event.eventType = eventName;
+			element.fireEvent('on' + event.eventType, event);
+		}
+	}
+	/*function changeManualAR()
+	{
+	  //e.preventDefault();
+	  var lang = 'Arabic'; //$(this).data('lang');
+	  //alert(lang);
+	  $('#google_translate_element select option').each(function(){
+		if($(this).text().indexOf(lang) > -1) {
+			$(this).parent().val($(this).val());
+			var container = document.getElementById('google_translate_element');
+			var select = container.getElementsByTagName('select')[0];
+			triggerHtmlEvent(select, 'change');
+		}
+	  });
+	}*/
+</script>
+<link rel="stylesheet" href="https://web.archive.org/web/20240728000827cs_/http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
+  <script src="https://web.archive.org/web/20240728000827js_/http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="https://web.archive.org/web/20240728000827js_/http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script>
+function chkCount()
+{
+	var NewCount = 0
+	if(document.getElementById('student_accommodation').checked==true)
+	{
+		NewCount = NewCount + 1;
+	}
+	if(document.getElementById('student_accommodation1').checked==true)
+	{
+		NewCount = NewCount + 1;
+	}
+	if (NewCount==2)
+	{
+		alert('Please select only one student accommodation.')
+		document.getElementById('student_accommodation').focus();
+		return false;
+	}
+}
+function chkFlightDetails(val)
+{
+	if(val==1)
+	{
+		document.getElementById('flightdetails').style.display="block";	
+	}
+	else
+	{
+		document.getElementById('flightdetails').style.display="none";	
+	}
+}
+function chkDirectary(va)
+{
+	if(va==1)
+	{
+		document.getElementById('specialdirectary').style.display="block";	
+	}
+	else
+	{
+		document.getElementById('specialdirectary').style.display="none";	
+	}
+}
+function chkAccommodation(v,fees,total)
+{
+	if(v==1)
+	{
+		document.getElementById('Single_accommodation').style.display="block";
+		document.getElementById('accommodation_fee').value=fees;
+		document.getElementById("Total").innerHTML=total;
+		document.getElementById('total_fees').value=total;
+		
+	}
+	else
+	{
+		document.getElementById('Single_accommodation').style.display="block";
+		document.getElementById('accommodation_fee').value=fees;
+		document.getElementById("Total").innerHTML=total;
+		document.getElementById('total_fees').value=total;
+	}
+}
+function chkHealth(v)
+{
+	if(v==1)
+	{
+		document.getElementById('healthspecify').style.display="block";	
+	}
+	else
+	{
+		document.getElementById('healthspecify').style.display="none";	
+	}
+}
+function chkDocument(a)
+{
+	if(a==0)
+	{
+		document.getElementById('documentsspecify').style.display="block";
+	}
+	else
+	{
+		document.getElementById('documentsspecify').style.display="none";
+	}
+}
+function chkPrevioud(num)
+{
+	if(num==1)
+	{
+		document.getElementById('previousex').style.display="block";
+	}
+	else
+	{
+		document.getElementById('previousex').style.display="none";
+	}
+}
+function chkQualiDegree(de)
+{
+	if(de=="Others")
+	{
+		document.getElementById('qualificatioon').style.display="block";	
+	} else {
+		document.getElementById('qualificatioon').style.display="none";	
+	}
+	
+}
+
+function checkPaymentMethod(value)
+{
+    var uploadDiv = document.getElementById("uploadDiv");
+	if(value==1)
+	{
+        uploadDiv.style.display = "none";
+		// document.getElementById("btnSubmit").setAttribute('value','Make Payment');	
+	} else {
+        uploadDiv.style.display = "block";
+		//document.getElementById("btnSubmit").setAttribute('value','Submit');		
+	}
+	
+}
+</script>
+<script>
+function chkUser(usernm)
+{
+	$('#chkuser').text('');
+	if(usernm!='')
+	{
+		$.ajax({ 
+			url: 'check-user.php',
+			 type: 'post',
+			 data: "usernm=" + usernm,
+			 success: function(output) {
+				if(output!=1) {
+						$('#chkuser').text(output);
+						document.getElementById('email').value="";
+						document.getElementById('email').focus();
+					  }
+				}
+		});
+	}
+}
+
+</script>
+
+  <style type="text/css">
+  .ui-dialog-titlebar span{text-align:left !important;}
+  </style>
+</head>
+<body>
+
+<div id="homepage">
+	<div class="main_inner">
+    	<div id="header">
+            <div class="top_section">
+            	<div class="logo">
+                 
+                <a href="https://web.archive.org/web/20240728000827/http://sqca.edu.om/"><img src="https://web.archive.org/web/20240728000827im_/https://sqca.edu.om/images/logo.png" alt=""/></a>
+                 
+                </div>
+                <div class="accou7">
+					                    <form method="post" action="https://web.archive.org/web/20240728000827/https://sqca.edu.om/login.php" onsubmit="return chkUserLogin();">
+                    <input type="text" name="username" id="username" placeholder="Username"/>
+                    <input type="password" name="password" id="password" placeholder="Password"/>
+                    <input type="submit" name="btnSubmit" id="btnSubmit" value="Login"/>
+                    </form>
+                                    </div>
+                <div class="search_box">
+                <div class="soc_tp">
+                  <ul>
+                   <li><a class="fb" href="https://web.archive.org/web/20240728000827/https://www.facebook.com/sqcarabic" target="_blank">Facebook</a></li>
+                   <li><a class="tw" href="https://web.archive.org/web/20240728000827/https://twitter.com/@sqcarabic" target="_blank">Twitter</a></li>
+                  </ul>
+	             </div>
+                <div id="google_translate_element"></div>
+				
+				<!--<script>
+					function googleTranslateElementInit() {
+					  new google.translate.TranslateElement({
+						pageLanguage: 'auto',
+						autoDisplay: false
+					  }, 'google_translate_element');
+					  					}
+					
+				</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+				<br/><br/>
+                	Please use this area to search our site. <br/>
+                    <div class="search_bar">
+                    <form method="post" action="https://web.archive.org/web/20240728000827/https://sqca.edu.om/search.php">
+                    	<input type="text" name="txtSearch" id="txtSearch" class="searc_inp" value=""/>
+                        <input type="submit" name="btnSubmit" id="btnSubmit" class="searc_btn" value="Search"/>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+            	<ul>
+                	<li><a href="https://web.archive.org/web/20240728000827/http://sqca.edu.om/" title="Home">Home</a></li>
+                    <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/about-us.php" title="About Us">About Us</a></li>
+                    <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/location.php" title="Location">Location</a></li>
+                    <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/faq.php" title="FAQ">FAQ</a></li>
+                    <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/gallery.php" title="Gallery">Gallery</a></li>
+                    <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/contact-us.php" title="Contact Us">Contact Us</a></li>
+                    
+					                </ul>
+            </div>
+            
+                        
+        </div>
+        <div id="container_inner">
+            <div class="secondary">
+            	<div class="news_event">
+    <b>Courses</b>
+    <ul>
+    	<li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/introduction.php" title="Introduction">Introduction</a></li>
+        <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/courses.php" title="Modern Standard Arabic Courses">Modern Standard Arabic Courses</a></li>
+        <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/cultural-programs.php" title="Cultural Programs">Cultural Programs</a></li>
+        <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/extra-curricula-activities.php" title="Extra-Curricula Activities">Extra-Curricula Activities</a></li>
+    </ul>
+    <b>Information about</b>
+    <ul>
+    	<li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/enrolment.php" title="Enrolment">Enrollment</a></li>
+        <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/important-dates.php" title="Important Dates">Important Dates</a></li>
+        <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/accommodation.php" title="Accommodation">Accommodation</a></li>
+        <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/services-facilities.php" title="Services and Facilities">Services and Facilities</a></li>
+        <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/learning-centre.php" title="Independent Learning Centre">Independent Learning Centre</a></li>
+    </ul>
+
+</div>                                <div class="sign_up">
+                	<a href="sign-up.php.html"><span class="sign_font">sign up</span></a>
+                </div>
+                            </div>
+
+            <div class="primary_inner">
+    <h4 class="head4">Registration</h4>
+    <div class="clear"></div>
+            <form name="frm1" id="frm1" method="post" action="sign-up.php.html" enctype="multipart/form-data" onsubmit="return chkStudentVal();">
+         <div class="cont_main">
+			
+           <label>Courses offered:<span class="req">*</span></label>
+           <select name="courses_offered" id="courses_offered" class="select2">
+           <option value="">-- Select Course --</option>
+             <option value="1- First Course">1- First Course</option><option value="2- Second Course">2- Second Course</option><option value="3- Third course">3- Third course</option><option value="4- Fourth Course">4- Fourth Course</option><option value="5- Fifth">5- Fifth</option>           </select>
+        </div>
+        <div class="cont_main">
+            <label>First Name:<span class="req">*</span></label>
+            <input type="text" name="firstname" id="firstname" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Middle Name:</label>
+            <input type="text" name="middlename" id="middlename" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Last Name:<span class="req">*</span></label>
+            <input type="text" name="lastname" id="lastname" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Gender:<span class="req">*</span></label>
+            <select name="gender" id="gender" class="select2">
+                <option value="">-- Select --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div class="cont_main">
+            <label>Address:</label>
+            <textarea name="address" id="address" rows="4" cols="25"></textarea>
+        </div>
+        <div class="cont_main">
+            <label>Phone:<span class="req">*</span></label>
+            <input type="text" name="phone" id="phone" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Fax:</label>
+            <input type="text" name="fax" id="fax" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Email (Username):<span class="req">*</span></label>
+            <input name="email" id="email" value="" type="text" class="cont_inp" onblur="return chkUser(this.value)"/>
+           	<p id="chkuser" style="font-size:12px; margin-left:120px; color:#FF0000;"></p>
+        </div>
+        <div class="cont_main">
+            <label>Password:<span class="req">*</span></label>
+            <input name="password" id="password" autocomplete="no" type="password" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Password again:<span class="req">*</span></label>
+            <input name="password2" id="password2" autocomplete="no" type="password" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Second Email (Optional):</label>
+            <input type="text" name="email2" id="email2" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Date of Birth:<span class="req">*</span></label>
+            <input type="text" class="cont_inp" name="birth_date" value="" id="birth_date" readonly="readonly" onclick="displayCalendar(this,'mm/dd/yyyy',this)"/>
+        </div>
+        <div class="cont_main">
+            <label>Birth City:</label>
+            <input type="text" name="birth_city" id="birth_city" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Birth Country:</label>
+            <input type="text" name="birth_country" id="birth_country" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Nationality/citizenship:</label>
+            <input type="text" name="nationality" id="nationality" class="cont_inp"/>
+        </div>
+        <div class="cont_main"><strong>Emergency contact details (at least 2 people):</strong></div>
+        <div class="cont_main">
+            <label>First Person Name:</label>
+            <input type="text" name="em1_name" id="em1_name" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>First Person Relationship:</label>
+            <input type="text" name="em1_relationship" id="em1_relationship" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>First Person Phone:</label>
+            <input type="text" name="em1_phone" id="em1_phone" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>First Person Address:</label>
+            <input type="text" name="em1_address" id="em1_address" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>First Person Email:</label>
+            <input type="text" name="em1_email" id="em1_email" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Second person Name:</label>
+            <input type="text" name="em2_name" id="em2_name" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Second person Relationship:</label>
+            <input type="text" name="em2_relationship" id="em2_relationship" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Second person Phone:</label>
+            <input type="text" name="em2_phone" id="em2_phone" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Second person Address:</label>
+            <input type="text" name="em2_address" id="em2_address" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Second person Email:</label>
+            <input type="text" name="em2_email" id="em2_email" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Anticipated departure date from Oman:</label>
+            <input type="text" class="cont_inp" name="anticipated_date" value="" id="anticipated_date" readonly="readonly" onclick="displayCalendar(this,'mm/dd/yyyy',this)"/>
+        </div>
+        <div class="cont_main">
+            <label>Would you like airport pick-up service?</label>
+            <input type="radio" name="airport_pick_service" onclick="return chkFlightDetails(this.value)" value="1"/> Yes
+            <input type="radio" name="airport_pick_service" checked="checked" onclick="return chkFlightDetails(this.value)" value="0"/> No
+            <div id="flightdetails" style="display:none;">
+                If yes write flight details<br/>
+                <input name="flight_details" id="flight_details" value="" type="text" class="input2"/>
+            </div>
+        </div>
+        <div class="cont_main">
+            <label class="other_label">What type of accommodation would you prefer (please tick one box)?</label>
+            <input type="checkbox" name="homestay" id="homestay" value="yes"/> Homestay with local family (this option is currently not available)
+            <br/>
+            Student Accommodation:<br/>
+            <input type="checkbox" name="student_accommodation" id="student_accommodation" onclick="return chkCount();" value="Single occupancy room"/> Single occupancy room<br/>
+            <input type="checkbox" name="student_accommodation" id="student_accommodation1" onclick="return chkCount();" value="Double occupancy room"/> Double occupancy room<br/>
+            Do you have any special dietary requirements?<br/>
+            <input type="radio" name="special_dietary_requirements" onclick="return chkDirectary(this.value)" value="1"/> Yes
+            <input type="radio" name="special_dietary_requirements" onclick="return chkDirectary(this.value)" value="0" checked="checked"/> No
+            <div id="specialdirectary" style="display:none;">
+                If Yes, please give details<br/>
+                <input name="special_requirements_details" id="special_requirements_details" value="" type="text" class="input2"/>
+            </div>
+        </div>
+        <div class="cont_main">
+            <label class="other_label">Qualification Degree:</label>
+            <input type="radio" name="qualification_degree" value="Master" onclick="return chkQualiDegree(this.value)"/> Master<br/>
+            <input type="radio" name="qualification_degree" value="Bachelor" onclick="return chkQualiDegree(this.value)"/> Bachelor<br/>
+            <input type="radio" name="qualification_degree" value="Diploma" onclick="return chkQualiDegree(this.value)"/> Diploma<br/>
+            <input type="radio" name="qualification_degree" value="Secondary school" onclick="return chkQualiDegree(this.value)"/> Secondary school<br/>
+            <input type="radio" name="qualification_degree" id="qualification_degrees" onclick="return chkQualiDegree(this.value)" value="Others"/> Others<br/>
+            <div id="qualificatioon" style="display:none;">
+            If other:<br/>
+            <input name="other_degree" id="other_degree" value="" type="text" class="input2" style="margin-left: 220px;"/>
+            </div>
+        </div>
+        <div class="cont_main">
+            <label>Qualification Details:</label>
+        </div>
+        <div class="cont_main">
+            <label>Institution Name:</label>
+            <input type="text" name="institution_name" id="institution_name" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Country:</label>
+            <input type="text" name="country" id="country" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Major:</label>
+            <input type="text" name="major" id="major" class="cont_inp"/>
+        </div>
+        <!--<div class="cont_main">
+            <label>GPA:</label>
+            <input type="text" name="gpa" id="gpa" class="cont_inp" />
+        </div>-->
+        <div class="cont_main">
+            <label>Do you have any specific health or learning needs that we need to know about?</label>
+        </div>
+        <div class="cont_main">
+            <label>&nbsp;</label>
+            <input type="radio" name="specific_health" onclick="return chkHealth(this.value)" value="1"/> Yes
+            <input type="radio" name="specific_health" onclick="return chkHealth(this.value)" value="0" checked="checked"/> No
+            <div id="healthspecify" style="display:none;">
+                If yes specify<br/>
+                <input name="specific_health_details" id="specific_health_details" value="" type="text" class="input2"/>
+            </div>
+        </div>
+        <div class="cont_main">
+            <label>How did you hear about Sultan Qaboos College for Teaching Arabic to Non-Native Speakers?</label>
+            <input type="text" name="hear_about_sultan" id="hear_about_sultan" class="cont_inp"/>
+        </div>
+        <div class="cont_main">
+            <label>Would you like to be included on our mailing list for program updates and special promotions regarding Sultan Qaboos College for Teaching Arabic to Non-Native Speakers?</label>
+            <input type="radio" name="mailing_list" value="1"/> Yes
+            <input type="radio" name="mailing_list" value="0" checked="checked"/> No
+        </div>
+                        <div class="cont_main">
+                    <label>Registration &amp; placement test fee:</label>
+                    25.00 R.O                    <input type="hidden" name="placment_test_fee" value="25.00"/>
+                </div>
+                <div class="cont_main">
+                    <label>Course fee:</label>
+                    200.00 R.O                    <input type="hidden" name="course_fee" value="200.00"/>
+                </div>
+                <div class="cont_main">
+                    <label>Accommodation fee (monthly):<span class="req">*</span></label>
+                    <input type="radio" name="accmmodation" onclick="return chkAccommodation(this.value,34.00,259.00)" value="1"/> Single Room 34.00 R.O<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="accmmodation" onclick="return chkAccommodation(this.value,17.00,242.00)" value="2"/> Shared Room 17.00 R.O                    <input type="hidden" name="accommodation_fee" id="accommodation_fee"/>
+                </div>
+                <div id="Single_accommodation" class="cont_main" style="display:none;">
+                    <label>Total Fees:</label>
+                     <span id="Total"></span> R.O                    <input type="hidden" name="total_fees" id="total_fees"/>
+                </div>
+                <div class="cont_main">
+                    <label>Payment method:</label>
+                   <!-- <input type="radio" name="paymentmethod" disabled onclick="return checkPaymentMethod(1)" value="criditcard" /> Cridit Card-->
+                    <input type="radio" name="paymentmethod" checked="checked" onclick="return checkPaymentMethod(2)" value="banktransfer"/> Bank Transfer
+                </div>
+        		<!--<div class="cont_main" id="uploadDiv" style="display:none;">-->
+        <div class="cont_main" id="uploadDiv">
+            <label>Upload document here:</label>
+            <input name="document_uploads" type="file"/>
+        </div>
+        <!--<div class="cont_main">
+            <label>Payment Method:</label>
+            <select name="payment_method" id="payment_method">
+            	<option value="">- Select One-</option>
+                <option value="paypal">Paypal</option>
+                <option value="manually">Manually</option>
+            </select>
+        </div>-->
+        <!--<div class="cont_main">
+            <label>I receive all needed documents:</label>
+        </div>-->
+        <!--<div class="cont_main">
+            <label>&nbsp;</label>
+            <input type="radio" name="receive_documents" onclick="return chkDocument(this.value)" value="1"  /> Yes
+            <input type="radio" name="receive_documents" onclick="return chkDocument(this.value)" value="0" checked='checked'  /> No
+            <div id="documentsspecify" style="display:block;">
+                If no specify<br />
+                <input name="receive_documents_details" id="receive_documents_details" value="" type="text" class="input2" />
+            </div>
+        </div>-->
+        <div class="cont_main">
+        	<label>&nbsp;</label>
+            <input name="btnSubmit" id="btnSubmit" type="submit" class="submit" value="Submit"/>
+        </div>
+    </form>
+        </div>
+        </div> 
+        <div id="footer">
+         <div class="footer_box">
+		  <h5>Services</h5>
+           <div class="footer_list">
+            <ul>
+             <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/services-facilities.php" title="Services and facilities">Services and facilities</a></li>
+             <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/about-us.php" title="About us">About us</a></li>
+             <li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/contact-us.php" title="Contact us">Contact us</a></li>
+            </ul>
+           </div>
+         </div>
+         
+         <div class="footer_box">
+		  <h5>Sign up</h5>
+           <a href="sign-up.php.html" class="register_btn">Register now</a>
+         </div>
+         
+         <div class="footer_box">
+		  <h5>Registration</h5>
+           <p><a href="sign-up.php.html" class="register_btn">Register Here</a></p>
+         </div>
+         
+         <div class="footer_box">
+		  <h5>Latest News</h5>
+           <div class="footer_list">
+            <ul>
+                         		<li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/news.php?news=24">الدورة الحادية والأربعين في تعليم اللغة العربية للناطقين بغيرها. "عن بعد"</a></li>
+                         		<li><a href="https://web.archive.org/web/20240728000827/https://sqca.edu.om/news.php?news=23">كلية السلطان لتعليم اللغة العربية للناطقين بغيرها في سطور 6</a></li>
+                        </ul>
+           </div>
+         </div>
+
+         <div class="footer_box last">
+          <div class="footer_logo">
+           <img src="https://web.archive.org/web/20240728000827im_/https://sqca.edu.om/images/footer_logo.png" alt=""/>
+          </div>
+         </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html><!--
+     FILE ARCHIVED ON 00:08:27 Jul 28, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:48:53 Apr 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.734
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.01
+  esindex: 0.014
+  cdx.remote: 74.397
+  LoadShardBlock: 185.236 (3)
+  PetaboxLoader3.datanode: 173.408 (5)
+  PetaboxLoader3.resolve: 157.765 (3)
+  load_resource: 178.174
+  loaddict: 96.455
+-->
